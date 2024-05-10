@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "news-ticker-client-side-solution",
+    "id": "593c9e95-df66-41c2-9068-75fc9d0f6b43",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "news-ticker description"
+      },
+      "longDescription": {
+        "default": "news-ticker description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "news-ticker Feature",
+        "description": "The feature that activates elements of the news-ticker solution.",
+        "id": "0693bfea-8137-4f53-bedc-1ab7cd3ef7da",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/news-ticker.sppkg"
+  }
+}

@@ -1,0 +1,43 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.marqueeContainer {
+
+
+  color: #000;
+  font-weight: 500;
+  // background-color: #D0E10E;
+  // width: 100%;
+  // overflow: hidden;
+  margin-top: 0px !important;
+  background-color: #FACF19;
+  // text-align: center;
+}
+
+.marqueeContent {
+// animation-delay: 0s;
+  display: inline-flex;
+  // animation: marquee 20s linear infinite;
+  // white-space: nowrap;
+}
+ .itemsRow{
+  text-align: center;
+  padding-left: 70px;
+  padding-top: 8px;
+
+}
+#spCommandBar{
+ 
+  display:none !important;
+    }
+    #spSiteHeader{
+   
+  display:none !important;
+    }
+// .marqueeContent.paused {
+//   animation-play-state: paused !important;
+// }
+
+// @keyframes marquee {
+//   0% { transform: translateX(100%); }
+//   100% { transform: translateX(-100%); }
+// }
